@@ -70,6 +70,9 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
+$github-gray: #24292e !default;
+$github-white: #ffffff !default;
+
 $background-color: #fff !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
@@ -172,9 +175,12 @@ $right-sidebar-width-wide: 400px !default;
 
 $border-radius: 4px !default;
 $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
-$nav-height: 3.5em !default;
-$nav-toggle-height: 3.5rem !default;
+$nav-height: 2em !default;
+$nav-toggle-height: 2rem !default;
 $navicon-width: 1.5rem !default;
 $navicon-height: 0.25rem !default;
 $global-transition: all 0.2s ease-in-out !default;
 $intro-transition: intro 0.3s both !default;
+
+$master-color: $github-gray !default;
+$master-text-color: $github-white !default;
