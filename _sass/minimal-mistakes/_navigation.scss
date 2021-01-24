@@ -201,7 +201,7 @@
       margin-left: 0px;
     }
   }
-  
+
   img{
     -webkit-transition: none;
     transition: none;
@@ -239,13 +239,14 @@
     a {
       position: relative;
 
+      // Underline Animation
       &:before {
         content: "";
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: $primary-color;
+        height: 2px;
+        background: $masthead-link-color-hover;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
