@@ -2,6 +2,7 @@
 title: "Riot API 사용법 - 계정 생성 & 소환사 정보 가져오기"
 excerpt_separator: "<!--more-->"
 layout: single
+date: 2021-01-31T16:34:30+09:00
 categories:
   - LoL
 tags:
