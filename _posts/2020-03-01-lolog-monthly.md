@@ -18,7 +18,38 @@ permalink: /lol/lolog-monthly/
 ## Preview
 [LoLog.me](https://lolog.me/){:target="_blank"}
 
-이미지 추가
+### 메인 페이지
+
+* Before
+<img src="/assets/post-images/lolog/homepage.png" alt="Homepage" style="width:100%; border: 1px solid #24292e; margin-bottom: 10px;"/>
+
+* After
+<img src="/assets/post-images/lolog-monthly/mainnew.png" alt="Hompage New" style="width:100%; border: 1px solid #24292e; margin-bottom: 10px;"/>
+
+### User 페이지
+
+* Before
+<img src="/assets/post-images/lolog/userpage.png" alt="Userpage" style="width:100%; border: 1px solid #24292e;"/>
+
+* After
+<img src="/assets/post-images/lolog-monthly/usernew.png" alt="Userpage New" style="width:100%; border: 1px solid #24292e;"/>
+
+### 모바일 페이지
+
+* Before
+<center>
+<img src="/assets/post-images/lolog/mobilehome.png" alt="mobilehome" style="width:30%; border: 1px solid #24292e; margin-bottom: 20px;"/>
+<img src="/assets/post-images/lolog/mobileuser.png" alt="mobileuser" style="width:30%; border: 1px solid #24292e;margin-bottom: 20px;"/>
+<img src="/assets/post-images/lolog/mobileuser2.png" alt="mobileuser2" style="width:30%; border: 1px solid #24292e;margin-bottom: 20px;"/>
+</center>
+
+* After
+<center>
+<img src="/assets/post-images/lolog-monthly/mainmobilenew.png" alt="mobilehome new" style="width:30%; border: 1px solid #24292e; margin-bottom: 20px;"/>
+<img src="/assets/post-images/lolog-monthly/usermobilenew.png" alt="mobileuser new" style="width:30%; border: 1px solid #24292e;margin-bottom: 20px;"/>
+<img src="/assets/post-images/lolog-monthly/usermobilenew2.png" alt="mobileuser2 new" style="width:30%; border: 1px solid #24292e;margin-bottom: 20px;"/>
+</center>
+
 
 ## Riot API Production Key 승인
 먼저 계획했던 대로 Riot API를 이용해 사이트가 동작하도록 웹앱의 코드를 전체적으로 리팩토링했습니다. Riot API가 생각보다 응답속도가 굉장히 빠릅니다. (체감상 디스코드봇을 만들 때 사용했던 YouTube API보다 빠른 것 같았습니다) 그리고 Node.js의 특성상 병렬적으로 API를 호출하고 데이터를 처리하기 수월했습니다. 그 결과, 크롤링을 사용해서 데이터를 가져왔을 때보다 사이트의 응답속도가 몇배는 더 빨라졌습니다.
