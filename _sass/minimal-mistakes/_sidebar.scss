@@ -160,6 +160,7 @@
 }
 
 .author__name {
+  display: inline;
   margin: 0;
 
   @include breakpoint($large) {
@@ -167,7 +168,9 @@
     margin-bottom: 10px;
   }
 }
+
 .sidebar .author__name {
+  font-weight: 700;
   font-family: $sans-serif;
   font-size: $type-size-5;
 }
@@ -183,7 +186,7 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  display: inline-block;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
@@ -202,7 +205,7 @@
   }
 
   @include breakpoint($large) {
-    display: block;
+    //display: block;
   }
 
   button {
@@ -228,7 +231,7 @@
     }
 
     @include breakpoint($large) {
-      display: none;
+      //display: none;
     }
   }
 }
@@ -251,13 +254,13 @@
   }
 
   @include breakpoint($large) {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
+    // display: block;
+    // position: relative;
+    // margin: 0;
+    // padding: 0;
+    // border: 0;
+    // background: transparent;
+    // box-shadow: none;
   }
 
   &:before {
@@ -273,7 +276,7 @@
     z-index: 0;
 
     @include breakpoint($large) {
-      display: none;
+      //display: none;
     }
   }
 
@@ -290,7 +293,7 @@
     z-index: 1;
 
     @include breakpoint($large) {
-      display: none;
+      //display: none;
     }
   }
 

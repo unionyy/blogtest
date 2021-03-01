@@ -69,8 +69,8 @@ analytics:
 author:
   name              : "유년"
   avatar            : "/assets/images/bio-photo.jpg"
-  bio               : "개발자"
-  location          : "Somewhere, Korea"
+  bio               : "개발자dfadfafsafsdfsafsafdsfd"
+  #location          : "Somewhere, Korea"
   # email             : "kyh4323@gmail.com"
   links:
     - label: "Blog"
@@ -85,6 +85,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kyh4323@gmail.com"
+
 
 # Site Footer
 footer:
@@ -242,7 +243,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       show_date: true
       comments: true
@@ -250,6 +251,13 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
+      sidebar:
+        - title: "Title<a href='https://lolog.me'>test</a>"
+          image: http://placehold.it/350x250
+          image_alt: "image"
+          text: "Some text here."
+        - title: "Another Title"
+          text: "More text here."
 
 comments:
   provider: "utterances"
