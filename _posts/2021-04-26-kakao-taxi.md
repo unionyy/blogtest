@@ -8,7 +8,7 @@ categories:
 tags:
   - Algorithm
   - Kakao
-  - BOJ
+  - Programmers
 permalink: /kakao/taxi/
 ---
 ---
@@ -20,13 +20,13 @@ permalink: /kakao/taxi/
 * [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413){:target="_blank"}
 <!--more-->
 
-## 코드 [GitHub](https://github.com/unionyy/algorithm/blob/main/kakao/2021-recruitment-taxi.cpp){:target="_blank"}
-
 ## 풀이
 
 A, B, S 세개의 지점에서 모든 지점으로의 최단거리를 다익스트라(Dijkstra) 알고리즘을 이용하여 구한다.
 
 세 지점으로부터 최단거리의 합이 가장 작은 하나의 지점을 찾아 합승 종료 지점으로 한다.
+
+## 코드 [GitHub](https://github.com/unionyy/algorithm/blob/main/kakao/2021-recruitment-taxi.cpp){:target="_blank"}
 
 ```cpp
 #include <string>
