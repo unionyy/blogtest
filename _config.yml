@@ -242,25 +242,28 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: false
-      read_time: true
+      #classes: wide
       show_date: true
+      layout: single
+      author_profile: true
+      read_time: false
       comments: true
       share: false
       related: true
       toc: true
       toc_sticky: true
-      sidebar:
-        - title: "Title<a href='https://lolog.me'>test</a>"
-          image: http://placehold.it/350x250
-          image_alt: "image"
-          text: "Some text here."
-        - title: "Another Title"
-          text: "More text here."
+      toc_label: "목차"
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
-comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
