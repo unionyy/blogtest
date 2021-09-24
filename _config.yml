@@ -114,6 +114,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _categories
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -176,14 +177,21 @@ sass:
 
 # Outputting
 permalink: /:slugified_categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: /page:num/
+  debug: true
+  trail:
+    before: 2
+    after: 2
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -191,7 +199,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed

@@ -1,6 +1,6 @@
 ---
-title: "LoL"
 layout: category
-permalink: /lol/
+taxonomy: AWS
+permalink: /aws/
 author_profile: true
 ---
